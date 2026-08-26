@@ -1,0 +1,97 @@
+/group/sbs032/szhang/.conda_envs/quast_env/bin/quast.py /group/sbs032/szhang/QUAST/GCA_004170445.1_ASM417044v1_genomic.fna /group/sbs032/szhang/QUAST/GCA_009771035.1_CNRS_Lalb_1.0_genomic.fna /group/sbs032/szhang/QUAST/GCF_000001735.4_TAIR10.1_genomic.fna /group/sbs032/szhang/QUAST/GCF_000004515.6_Glycine_max_v4.0_genomic.fna /group/sbs032/szhang/QUAST/GCF_000331145.2_Cicar.CDCFrontier_v2.0_genomic.fna /group/sbs032/szhang/QUAST/GCF_000715075.1_ASM71507v2_genomic.fna /group/sbs032/szhang/QUAST/GCF_024323335.1_CAAS_Psat_ZW6_1.0_genomic.fna /group/sbs032/szhang/QUAST/GCF_034140825.1_ASM3414082v1_genomic.fna -o /group/sbs032/szhang/QUAST/multi_genome_report/
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-5.14.0-503.38.1.el9_5.x86_64-x86_64-with-glibc2.34 (linux_64)
+  Python version: 3.9.23
+  CPUs number: 48
+
+Started: 2026-08-26 13:17:55
+
+Logging to /group/sbs032/szhang/QUAST/multi_genome_report/quast.log
+NOTICE: Maximum number of threads is set to 12 (use --threads option to set it manually)
+
+CWD: /mmfs1/data/group/sbs032/szhang/QUAST
+Main parameters: 
+  MODE: default, threads: 12, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  1  /group/sbs032/szhang/QUAST/GCA_004170445.1_ASM417044v1_genomic.fna ==> GCA_004170445.1_ASM417044v1_genomic
+  2  /group/sbs032/szhang/QUAST/GCA_009771035.1_CNRS_Lalb_1.0_genomic.fna ==> GCA_009771035.1_CNRS_Lalb_1.0_genomic
+  3  /group/sbs032/szhang/QUAST/GCF_000001735.4_TAIR10.1_genomic.fna ==> GCF_000001735.4_TAIR10.1_genomic
+  4  /group/sbs032/szhang/QUAST/GCF_000004515.6_Glycine_max_v4.0_genomic.fna ==> GCF_000004515.6_Glycine_max_v4.0_genomic
+  5  /group/sbs032/szhang/QUAST/GCF_000331145.2_Cicar.CDCFrontier_v2.0_genomic.fna ==> GCF_000331145.2_Cicar.CDCFrontier_v2.0_genomic
+  6  /group/sbs032/szhang/QUAST/GCF_000715075.1_ASM71507v2_genomic.fna ==> GCF_000715075.1_ASM71507v2_genomic
+  7  /group/sbs032/szhang/QUAST/GCF_024323335.1_CAAS_Psat_ZW6_1.0_genomic.fna ==> GCF_024323335.1_CAAS_Psat_ZW6_1.0_genomic
+  8  /group/sbs032/szhang/QUAST/GCF_034140825.1_ASM3414082v1_genomic.fna ==> GCF_034140825.1_ASM3414082v1_genomic
+
+2026-08-26 13:19:30
+Running Basic statistics processor...
+  Contig files: 
+    1  GCA_004170445.1_ASM417044v1_genomic
+    2  GCA_009771035.1_CNRS_Lalb_1.0_genomic
+    3  GCF_000001735.4_TAIR10.1_genomic
+    4  GCF_000004515.6_Glycine_max_v4.0_genomic
+    5  GCF_000331145.2_Cicar.CDCFrontier_v2.0_genomic
+    6  GCF_000715075.1_ASM71507v2_genomic
+    7  GCF_024323335.1_CAAS_Psat_ZW6_1.0_genomic
+    8  GCF_034140825.1_ASM3414082v1_genomic
+  Calculating N50 and L50...
+    1  GCA_004170445.1_ASM417044v1_genomic, N50 = 137243429, L50 = 9, auN = 130838930.2, Total length = 2551684895, GC % = 36.33, # N's per 100 kbp =  1037.48
+    2  GCA_009771035.1_CNRS_Lalb_1.0_genomic, N50 = 17349171, L50 = 12, auN = 17047502.3, Total length = 450972408, GC % = 33.71, # N's per 100 kbp =  502.97
+    3  GCF_000001735.4_TAIR10.1_genomic, N50 = 23459830, L50 = 3, auN = 24546704.0, Total length = 119668634, GC % = 36.06, # N's per 100 kbp =  155.60
+    4  GCF_000004515.6_Glycine_max_v4.0_genomic, N50 = 49893278, L50 = 10, auN = 47821488.1, Total length = 978941695, GC % = 34.74, # N's per 100 kbp =  2646.62
+    5  GCF_000331145.2_Cicar.CDCFrontier_v2.0_genomic, N50 = 65803235, L50 = 4, auN = 60383203.3, Total length = 530342893, GC % = 31.03, # N's per 100 kbp =  8976.62
+    6  GCF_000715075.1_ASM71507v2_genomic, N50 = 166564946, L50 = 11, auN = 166638237.8, Total length = 3996226245, GC % = 39.12, # N's per 100 kbp =  3.55
+    7  GCF_024323335.1_CAAS_Psat_ZW6_1.0_genomic, N50 = 523395090, L50 = 4, auN = 526359620.1, Total length = 3796066963, GC % = 37.94, # N's per 100 kbp =  269.82
+    8  GCF_034140825.1_ASM3414082v1_genomic, N50 = 31111469, L50 = 6, auN = 32935562.1, Total length = 386337859, GC % = 43.72, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/GC_content_plot.pdf
+  Drawing GCA_004170445.1_ASM417044v1_genomic GC content plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/GCA_004170445.1_ASM417044v1_genomic_GC_content_plot.pdf
+  Drawing GCA_009771035.1_CNRS_Lalb_1.0_genomic GC content plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/GCA_009771035.1_CNRS_Lalb_1.0_genomic_GC_content_plot.pdf
+  Drawing GCF_000001735.4_TAIR10.1_genomic GC content plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/GCF_000001735.4_TAIR10.1_genomic_GC_content_plot.pdf
+  Drawing GCF_000004515.6_Glycine_max_v4.0_genomic GC content plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/GCF_000004515.6_Glycine_max_v4.0_genomic_GC_content_plot.pdf
+  Drawing GCF_000331145.2_Cicar.CDCFrontier_v2.0_genomic GC content plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/GCF_000331145.2_Cicar.CDCFrontier_v2.0_genomic_GC_content_plot.pdf
+  Drawing GCF_000715075.1_ASM71507v2_genomic GC content plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/GCF_000715075.1_ASM71507v2_genomic_GC_content_plot.pdf
+  Drawing GCF_024323335.1_CAAS_Psat_ZW6_1.0_genomic GC content plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/GCF_024323335.1_CAAS_Psat_ZW6_1.0_genomic_GC_content_plot.pdf
+  Drawing GCF_034140825.1_ASM3414082v1_genomic GC content plot...
+    saved to /group/sbs032/szhang/QUAST/multi_genome_report/basic_stats/GCF_034140825.1_ASM3414082v1_genomic_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-08-26 13:25:35
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-08-26 13:26:43
+RESULTS:
+  Text versions of total report are saved to /group/sbs032/szhang/QUAST/multi_genome_report/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /group/sbs032/szhang/QUAST/multi_genome_report/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /group/sbs032/szhang/QUAST/multi_genome_report/report.html
+  PDF version (tables and plots) is saved to /group/sbs032/szhang/QUAST/multi_genome_report/report.pdf
+  Icarus (contig browser) is saved to /group/sbs032/szhang/QUAST/multi_genome_report/icarus.html
+  Log is saved to /group/sbs032/szhang/QUAST/multi_genome_report/quast.log
+
+Finished: 2026-08-26 13:26:43
+Elapsed time: 0:08:47.795620
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
